@@ -1,8 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://zombibly.github.io/ProgramProperly/"
 languageCode = "en-us"
 title = "Program Properly"
 theme = "hugo-casper3"
 mainSections = ["posts"]
+
 [params]
     description = "Learning to do things right"
 
