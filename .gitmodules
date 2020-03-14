@@ -1,0 +1,3 @@
+[submodule "themes/hugo-casper3"]
+	path = themes/hugo-casper3
+	url = https://github.com/zombibly/hugo-casper3.git

@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Program Properly"
+theme = "hugo-casper3"
+mainSections = ["posts"]
+[params]
+    description = "Learning to do things right"
+
