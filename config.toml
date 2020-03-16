@@ -2,8 +2,9 @@ baseURL = "https://zombibly.github.io/ProgramProperly/"
 languageCode = "en-us"
 title = "Program Properly"
 theme = "hugo-casper3"
-mainSections = ["posts"]
+googleAnalytics = "UA-160612490-1"
 
 [params]
     description = "Learning to do things right"
+    mainSections = ["posts"]
 
