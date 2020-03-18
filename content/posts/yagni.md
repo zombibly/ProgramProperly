@@ -3,10 +3,10 @@ title: "The Art of YAGNI"
 date: 2020-03-15T21:38:21-05:00
 feature_image: "img/woman-holding-face-mask.jpg"
 author: "Jacob Ouellette"
-
+tags: ["concept"]
 ---
 
-The year is 2020, the world has been engulfed in the worst air-borne, alcoholically named, viral disease man has ever known! 
+The year is 2020, the world is been ravaged by in the worst air-borne, alcoholically named, viral disease modern man has ever known! 
 
 <!--more-->
 
@@ -16,7 +16,7 @@ The year is 2020, the world has been engulfed in the worst air-borne, alcoholica
 
 Ok that was a bit dramatic, but in all seriousness, you'd think the world was coming to an end with all the people rushing out to walmart and buying every. single. roll. of toilet paper. I went on an ice cream run yesterday night, and it was mind blowing to see a walmart in the heart of Dallas look like everyone was preparing for a category 5 hurricane. Toilet paper, paper towels, napkins, and any other paper product that could possibly be used to clean yourself up after you've finished your business were picked clean. The shelves looked like scenes from any zombie/apocalypse movie. 
 
-![this is a test](../../img/crime-scene.jpg)
+![Do not cross](/ProgramProperly/img/crime-scene.jpg)
 
 The scene of people stacking products in their cart like tetris pieces reminded me of a very useful concept I use at work on a daily basis, even if I'm not explicitly reminding myself to use it. This my friends is YAGNI. An idea in which every developer from any industry using any language should be aware of, understand, and use.
 
@@ -28,9 +28,11 @@ To put it simply, YAGNI stands for "You Ain't Gonna Need It" (preferably spoken 
 
 The idea of YAGNI is that as developers, we should only develop software as we need it. If developers didn't use YAGNI, software would never make it to production, be sold, and make money which means we would all be unemployed. I have worked with many software engineers who want to build a feature that will satisfy the customer's request, but also be customizable enough for another customer, oh and it will remind you to pick up milk on the way home, and they will want it to... You get the idea. As developers we want to build the world's greatest piece of technology, but that piece of software will never actually be finished. There is no end goal.
 
+![Don't Be this guy](/ProgramProperly/img/man-using-macbook.jpg)
+
 In comes the savior of the day YAGNI. It is the idea that we should only build software/solve problems when they arise, we effectively solve the problem above. If a customer requests a feature, we should plan out the feature to fulfill that customer's request. If a bug report comes in, the code committed relating to that bug should only fix that bug. 
 
-I have personally made commits that rewrite entire methods, because it had a single off by one error, but I knew it could be written in a more efficient way. This all seems fine and dandy, except for I wasted a bunch of time rewriting the method to save 12ms off the request time. Guess how many customers knew that there was an improvement on that endpoint and were thankful that someone put their time and effort into it. If you said 0, you are the winner! come on down to be our next contestant on 'Rhetorical Questions'.
+I have personally made commits that rewrite entire methods, because it had a single off by one error, but I knew it could be written in a more efficient way. This all seems fine and dandy, except that I wasted a bunch of time rewriting the method to save 12ms off the request time. Guess how many customers knew that there was an improvement on that endpoint and were thankful that someone put their time and effort into it. If you said 0, you are the winner! come on down to be our next contestant on 'Rhetorical Questions'.
 
 Since I decided to completely rewrite the method that was causing the problem there I had a fun filled day of actually writing the code, followed by a couple of hours responding to PR comments, and then finally getting the changes merged into a release branch. If I had followed the rule of YAGNI I could have solved the issue in the existing code in about 15 minutes, PR approved in about 5 minutes, and the branch merged into a release in less than an hour from when I actually started working on the bug.
 
@@ -52,6 +54,8 @@ This is where YAGNI really starts to kick in. We need to go over all of the note
 ### 4. Execute
 
 It's your time to shine! Get those fingers moving. Make the keyboard clack. Do whatever it is you deemed necessary to complete the ticket.
+
+![This can be you!](/ProgramProperly/img/man-wearing-white-suit-jacket-and-white-pants.jpg)
 
 Using the steps outlined above I've been able to smash my way through way more tickets than I was in the past. I don't spend nearly as much time refactoring old code to get minor improvements or to meet the team's current code standards (which are going to change in a year or two anyway). Best of all, our users are happier, because the features and bug fixes are coming out faster. 
 
