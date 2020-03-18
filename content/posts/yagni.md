@@ -1,7 +1,7 @@
 ---
 title: "The Art of YAGNI"
 date: 2020-03-15T21:38:21-05:00
-feature_image: "img/woman-holding-face-mask.jpg"
+feature_image: "/img/woman-holding-face-mask.jpg"
 author: "Jacob Ouellette"
 tags: ["concept"]
 ---
