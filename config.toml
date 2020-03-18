@@ -1,4 +1,4 @@
-baseURL = "https://ProgramProperly.com/"
+baseURL = "http://ProgramProperly.com/"
 languageCode = "en-us"
 title = "Program Properly"
 theme = "hugo-casper3"
